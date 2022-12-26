@@ -1,0 +1,182 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 60.5%;
+}
+
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2015/05/31/15/18/technology-792180_1280.jpg);
+  font-family: "Lato", sans-serif;
+}
+/* ==============COLORS & FONTS============= */
+/* Body Background: rgb(240, 240, 240) */
+/* MARGIN BETWEEN ELEMENTS: 7.8REM */
+p {
+  font-size: 1.8rem;
+}
+section {
+  margin-bottom: 9.6rem;
+}
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: rgb(240, 240, 240);
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 9.6rem;
+  position: fixed;
+  background-color: rgb(240, 240, 240);
+  width: 80%;
+}
+
+#header-img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(68, 68, 68);
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.logo-name {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: rgb(68, 68, 68);
+}
+
+#nav-ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+#nav-ul a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+#nav-ul li:last-child a {
+  background-color: brown;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+#nav-ul a:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.slogan {
+  font-size: 4rem;
+}
+
+.intro-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding-top: 14rem;
+}
+
+.intro-form > .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.intro .description {
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+form label {
+  font-weight: 500;
+}
+form label,
+#submit,
+#email {
+  font-size: 2rem;
+}
+#email,
+#submit {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+#submit {
+  border: none;
+  font-size: 2.4rem;
+  font-weight: 500;
+  background-color: rgb(238, 238, 2);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+  padding: 1rem 3rem;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+}
+
+/* SECTION VIDEO */
+.video {
+  text-align: center;
+}
+/* SECTION FEATURES */
+#features img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+#features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 4rem;
+  justify-items: center;
+  column-gap: 2rem;
+}
+
+.product {
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+}
+
+.product-features-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: bold;
+}
