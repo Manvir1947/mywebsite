@@ -588,13 +588,21 @@ figure a {
     align-content: center;
     justify-content: center;
     justify-items: center;
-    gap: 0.9rem;
+    padding: 1rem 0;
+    gap: 1rem;
   }
 
   #nav-ul li:last-child {
     grid-column: 2/4;
-    text-align: center;
   }
+  #nav-ul li:nth-child(4) {
+    justify-self: flex-start;
+  }
+  #nav-ul li a {
+    font-size: 1.8rem;
+    letter-spacing: normal;
+  }
+
   #nav-ul li:last-child a {
     font-size: 1.6rem;
     display: flex;
