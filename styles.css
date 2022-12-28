@@ -530,6 +530,7 @@ figure a {
     max-width: 100%;
   }
   #header {
+    position: relative;
     width: 100%;
   }
   .slogan {
