@@ -593,12 +593,12 @@ figure a {
   }
   #nav-ul {
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(4, 1fr);
     align-content: center;
     justify-content: center;
     justify-items: center;
     padding: 1rem 0;
-    gap: 5;
+
     row-gap: 1rem;
   }
 
@@ -609,14 +609,15 @@ figure a {
     justify-self: flex-start;
   }
   #nav-ul li a {
-    font-size: 1.8rem;
+    margin-left: -1rem;
+    font-size: 1.6rem;
     letter-spacing: normal;
   }
 
   #nav-ul li:last-child a {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 2.5px 1.5rem;
   }
 }
