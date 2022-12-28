@@ -524,18 +524,26 @@ figure a {
 
 @media (max-width: 660px) {
   .intro-form {
-    padding-top: 25rem;
+    padding-top: 8rem;
   }
+  .slogan {
+    padding: 0 rem;
+  }
+
   main {
     max-width: 100%;
   }
   #header {
     position: relative;
     width: 100%;
+    margin-bottom: 0rem;
   }
   .slogan {
     text-align: center;
     font-size: 3rem;
+  }
+  .intro .description {
+    margin-bottom: 3rem;
   }
 
   .intro .description,
