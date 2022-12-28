@@ -556,6 +556,9 @@ figure a {
     padding: 1rem;
     font-weight: 500;
   }
+    #mobile-app-img {
+    width: 80%;
+  }
   .title-feature {
     font-size: 2.4rem;
   }
