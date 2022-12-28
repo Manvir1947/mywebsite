@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Magazine</title>
+    <title>SMARTFIT</title>
+
+    <link
+      rel="icon"
+      href="https://pics.freeicons.io/uploads/icons/png/12956510201556279661-512.png"
+      type="image/icon type"
+    />
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,14 +23,7 @@
   <body>
     <main>
       <header id="header">
-        <div class="logo">
-          <img
-            id="header-img"
-            src="https://freesvg.org/img/old_alarm_clock.png"
-            alt=""
-          />
-          <p class="logo-name">TICK WATCHES</p>
-        </div>
+        <p class="logo-name">SMART FIT</p>
         <nav id="nav-bar">
           <ul id="nav-ul">
             <li><a class="nav-link" href="#video">PRODUCT</a></li>
@@ -39,6 +38,13 @@
         <header class="intro">
           <h1 class="slogan">REVOLUTION OF TECHNOLOGY STARTS FROM HERE</h1>
           <p class="description">BE THE PART OF GRANDEUR EXPERIENCE</p>
+          <div class="main-img-div">
+            <img
+              id="main-img"
+              src="https://www.pngplay.com/wp-content/uploads/9/Apple-Watch-Transparent-Background.png"
+              alt=""
+            />
+          </div>
         </header>
         <form id="form" action="https://www.freecodecamp.com/email-submit">
           <label for="email"
@@ -55,7 +61,9 @@
         </form>
       </section>
       <section class="video">
+        <h2 class="h2-headings video-title">Full mannual is available here</h2>
         <iframe
+          id="video"
           width="640"
           height="360"
           src="https://www.youtube.com/embed/PND0lokglyU"
@@ -65,63 +73,677 @@
           allowfullscreen
         ></iframe>
       </section>
+
       <section id="features">
-        <div class="first-product product">
+        <div class="mobile-app-div">
           <img
-            src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+            id="mobile-app-img"
+            src="https://help.apple.com/assets/6349C6D021306137DD68CBD5/6349C6D721306137DD68CBF4/en_US/518ae4d837c3061af1a61c16f5202f69.png"
             alt=""
           />
+          <img
+            id="watch-img-features"
+            src="https://www.freepnglogos.com/uploads/watch-png/watch-apple-september-announcements-and-filemaker-cimbura-11.png"
+            alt=""
+          />
+        </div>
+        <div class="title-feature">
+          <h1>WEAR THE COMFORT WITH SERIES 3 FIT</h1>
+          <p class="title-feature-description">
+            With more battery backup and customisation
+          </p>
+        </div>
+        <div class="feature-grid-imgs">
+          <img
+            class="img-feature-1 img-feature"
+            src="https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
+          />
+          <img
+            class="img-feature-2 img-feature"
+            src="https://images.unsplash.com/photo-1638798486317-59c3d2d2bfc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"
+          />
+          <img
+            class="img-feature-3 img-feature"
+            src="https://mms.businesswire.com/media/20220606005746/en/1477304/5/Apple-WWDC22-watchOS-9-hero-220606.jpg?download=1"
+          />
+        </div>
+      </section>
+
+      <section id="products">
+        <div class="first-product product">
+          <figure>
+            <a href="productPage1.html">
+              <img
+                src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+                alt=""
+              />
+              <figcaption class="photo-caption">ALUMINA 3.0</figcaption>
+            </a>
+          </figure>
           <ul class="product-features-ul">
-            <li><h2 class="price">$ 299</h2></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit a</p></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum dolor.</p></li>
+            <li><h2 class="price">$ 349</h2></li>
+            <li><p class="watch-size">44mm or 40mm</p></li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-iconsicon-tabler-swimming"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="16" cy="9" r="1"></circle>
+                <path d="M6 11l4 -2l3.5 3l-1.5 2"></path>
+                <path
+                  d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25"
+                ></path>
+              </svg>
+              <p>Lorem ipsum dolor sit a</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-activity-heartbeat"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
+              </svg>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-access-point"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="12" y1="12" x2="12" y2="12.01"></line>
+                <path d="M14.828 9.172a4 4 0 0 1 0 5.656"></path>
+                <path d="M17.657 6.343a8 8 0 0 1 0 11.314"></path>
+                <path d="M9.168 14.828a4 4 0 0 1 0 -5.656"></path>
+                <path d="M6.337 17.657a8 8 0 0 1 0 -11.314"></path>
+              </svg>
+              <p>Lorem, ipsum.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-temperature"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5"></path>
+                <line x1="10" y1="9" x2="14" y2="9"></line>
+              </svg>
+              <p>Lorem, ipsum dolor.</p>
+            </li>
           </ul>
         </div>
         <div class="second-product product">
-          <img
-            src="https://images.unsplash.com/photo-1569411032431-07598b0012c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80
-          "
-            alt=""
-          />
+          <figure>
+            <a href="productPage2.html">
+              <img
+                src="https://images.unsplash.com/photo-1569411032431-07598b0012c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80"
+                alt=""
+              />
+              <figcaption class="photo-caption">ALUMINA 3.0</figcaption>
+            </a>
+          </figure>
           <ul class="product-features-ul">
             <li><h2 class="price">$ 349</h2></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit a</p></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum dolor.</p></li>
+            <li><p class="watch-size">44mm or 40mm</p></li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-swimming"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="16" cy="9" r="1"></circle>
+                <path d="M6 11l4 -2l3.5 3l-1.5 2"></path>
+                <path
+                  d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25"
+                ></path>
+              </svg>
+              <p>Lorem ipsum dolor sit a</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-activity-heartbeat"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
+              </svg>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-access-point"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="12" y1="12" x2="12" y2="12.01"></line>
+                <path d="M14.828 9.172a4 4 0 0 1 0 5.656"></path>
+                <path d="M17.657 6.343a8 8 0 0 1 0 11.314"></path>
+                <path d="M9.168 14.828a4 4 0 0 1 0 -5.656"></path>
+                <path d="M6.337 17.657a8 8 0 0 1 0 -11.314"></path>
+              </svg>
+              <p>Lorem, ipsum.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-temperature"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5"></path>
+                <line x1="10" y1="9" x2="14" y2="9"></line>
+              </svg>
+              <p>Lorem, ipsum dolor.</p>
+            </li>
           </ul>
         </div>
         <div class="third-product product">
-          <img
-            src="https://media.istockphoto.com/id/518820558/photo/smartwatch-digital-clock-on-white.jpg?b=1&s=170667a&w=0&k=20&c=xgJsiXaNP5HZbjK_qw3VwBp8PLd7HmpT6JRuA5kvUoY=
-          "
-            alt=""
-          />
+          <figure>
+            <a href="productPage3.html">
+              <img
+                src="https://media.istockphoto.com/id/518820558/photo/smartwatch-digital-clock-on-white.jpg?b=1&s=170667a&w=0&k=20&c=xgJsiXaNP5HZbjK_qw3VwBp8PLd7HmpT6JRuA5kvUoY=
+                "
+                alt=""
+              />
+              <figcaption class="photo-caption">ALUMINA 3.0</figcaption>
+            </a>
+          </figure>
           <ul class="product-features-ul">
-            <li><h2 class="price">$ 299</h2></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit a</p></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum dolor.</p></li>
+            <li><h2 class="price">$ 349</h2></li>
+            <li><p class="watch-size">44mm or 40mm</p></li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-swimming"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="16" cy="9" r="1"></circle>
+                <path d="M6 11l4 -2l3.5 3l-1.5 2"></path>
+                <path
+                  d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25"
+                ></path>
+              </svg>
+              <p>Lorem ipsum dolor sit a</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-activity-heartbeat"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
+              </svg>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-access-point"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="12" y1="12" x2="12" y2="12.01"></line>
+                <path d="M14.828 9.172a4 4 0 0 1 0 5.656"></path>
+                <path d="M17.657 6.343a8 8 0 0 1 0 11.314"></path>
+                <path d="M9.168 14.828a4 4 0 0 1 0 -5.656"></path>
+                <path d="M6.337 17.657a8 8 0 0 1 0 -11.314"></path>
+              </svg>
+              <p>Lorem, ipsum.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-temperature"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5"></path>
+                <line x1="10" y1="9" x2="14" y2="9"></line>
+              </svg>
+              <p>Lorem, ipsum dolor.</p>
+            </li>
           </ul>
         </div>
         <div class="fourth-product product">
-          <img
-            src="https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_333084885_66_a-Fitbit-Versa-2-Smartwatch-Petal-Pink?bgColor=0,0,0,0&resMode=sharp2&op_sharpen=1&hei=520"
-            alt=""
-          />
+          <figure>
+            <a href="productPage4.html">
+              <img
+                src="https://fgl.scene7.com/is/image/FGLSportsLtd/FGL_333084885_66_a-Fitbit-Versa-2-Smartwatch-Petal-Pink?bgColor=0,0,0,0&resMode=sharp2&op_sharpen=1&hei=520"
+                alt=""
+              />
+              <figcaption class="photo-caption">ALUMINA 3.0</figcaption>
+            </a>
+          </figure>
           <ul class="product-features-ul">
             <li><h2 class="price">$ 349</h2></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit a</p></li>
-            <li class="product-feature"><p>Lorem ipsum dolor sit.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum.</p></li>
-            <li class="product-feature"><p>Lorem, ipsum dolor.</p></li>
+            <li><p class="watch-size">44mm or 40mm</p></li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-swimming"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <circle cx="16" cy="9" r="1"></circle>
+                <path d="M6 11l4 -2l3.5 3l-1.5 2"></path>
+                <path
+                  d="M3 16.75a2.4 2.4 0 0 0 1 .25a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 1 -.25"
+                ></path>
+              </svg>
+              <p>Lorem ipsum dolor sit a</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-activity-heartbeat"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
+              </svg>
+              <p>Lorem ipsum dolor sit.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-access-point"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="12" y1="12" x2="12" y2="12.01"></line>
+                <path d="M14.828 9.172a4 4 0 0 1 0 5.656"></path>
+                <path d="M17.657 6.343a8 8 0 0 1 0 11.314"></path>
+                <path d="M9.168 14.828a4 4 0 0 1 0 -5.656"></path>
+                <path d="M6.337 17.657a8 8 0 0 1 0 -11.314"></path>
+              </svg>
+              <p>Lorem, ipsum.</p>
+            </li>
+            <li class="product-feature">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon features-icons icon-tabler-temperature"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M10 13.5a4 4 0 1 0 4 0v-8.5a2 2 0 0 0 -4 0v8.5"></path>
+                <line x1="10" y1="9" x2="14" y2="9"></line>
+              </svg>
+              <p>Lorem, ipsum dolor.</p>
+            </li>
           </ul>
+          <div class="add-to-cart">
+            <a href="add "></a>
+          </div>
         </div>
       </section>
-      <section class="reviews"></section>
+      <section class="essential">
+        <h2 class="essentials-title h2-headings">SMART FIT ESSENTIALS</h2>
+        <div class="essential-div-1">
+          <img
+            src="https://images.unsplash.com/photo-1655560378428-7605bda51749?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2669&q=80
+          "
+            class="essential-img-1 essential-img"
+            alt=""
+          />
+          <h3 class="essential-img-txt-1 essential-txt">
+            INTRODUCING NEW GEN FIT EAR BUDS "SOUNDS DRAKE"
+          </h3>
+        </div>
+        <div class="essential-div-2">
+          <img
+            src="https://images.unsplash.com/photo-1627989580309-bfaf3e58af6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80
+        "
+            class="essential-2 essential-img"
+            alt=""
+          />
+          <h3 class="essential-img-txt-2 essential-txt">
+            DURABLE AND HIGH SOUND QUALITY WITH FIT BUDS 3.2V
+          </h3>
+        </div>
+        <div class="essential-div-3">
+          <img
+            src="https://images.unsplash.com/photo-1604242692767-32cd35ccaf75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+            class="essential-3 essential-img"
+            alt=""
+          />
+          <h3 class="essential-img-txt-3 essential-txt">
+            MORE THAN A WATCH BUT A CLOCK DECOR
+          </h3>
+        </div>
+        <div class="essential-div-4">
+          <img
+            src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+            class="essential-4 essential-img"
+            alt=""
+          />
+          <h3 class="essential-img-txt-4 essential-txt">
+            TRADITIONAL SELECTIVE WOMEN WEARABLES
+          </h3>
+        </div>
+      </section>
+      <section class="reviews">
+        <h2 class="reviews-title h2-headings">
+          Our goal and vision is only customer satisfaction
+        </h2>
+        <div class="review-images">
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1527082395-e939b847da0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1629747490241-624f07d70e1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1521038199265-bc482db0f923?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1572631382901-cf1a0a6087cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=382&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1576695444267-40cdd214f06e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=422&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1619300026534-8e8a76941138?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=466&q=80"
+            alt=""
+          />
+          <img
+            class="customer-img"
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+            alt=""
+          />
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="follow-us">
+          <h3>Follow us</h3>
+          <div class="social-media-logos">
+            <div class="social-md-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-facebook"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                ></path>
+              </svg>
+            </div>
+            <div class="social-md-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-twitter"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+                ></path>
+              </svg>
+            </div>
+            <div class="social-md-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-instagram"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+              </svg>
+            </div>
+            <div class="social-md-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-pinterest"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="8" y1="20" x2="12" y2="11"></line>
+                <path
+                  d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"
+                ></path>
+                <circle cx="12" cy="12" r="9"></circle>
+              </svg>
+            </div>
+            <div class="social-md-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-brand-youtube"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                <path d="M10 9l5 3l-5 3z"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="terms-conditions">
+          <ul class="support">
+            <li><h3 class="terms-conditions-heading">SUPPORT</h3></li>
+            <li><a href="#">Product Help</a></li>
+            <li><a href="#">Wear and Care</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+          <ul class="legal">
+            <li><h3 class="terms-conditions-heading">LEGAL</h3></li>
+            <li><a href="#">Terms of services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Ad choices</a></li>
+          </ul>
+          <ul class="partners">
+            <li><h3 class="terms-conditions-heading">PARTNERS</h3></li>
+            <li><a href="#">Retailers</a></li>
+            <li><a href="#">For developers</a></li>
+          </ul>
+          <ul class="company">
+            <li><h3 class="terms-conditions-heading">COMPANY</h3></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Press Relations</a></li>
+          </ul>
+          <ul class="health-solutions">
+            <li><h3 class="terms-conditions-heading">HEALTH SOLUTIONS</h3></li>
+            <li><a href="#">Employers</a></li>
+            <li><a href="#">Health Plans</a></li>
+            <li><a href="#">Workforce Health</a></li>
+            <li><a href="#">Researchers</a></li>
+            <li><a href="#">Partners</a></li>
+          </ul>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
+
